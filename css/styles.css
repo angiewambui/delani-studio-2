@@ -1,0 +1,92 @@
+.landingpage{
+    text-align: center;
+    background-image: url(/home/ubuntu/Documents/delani-studio-ph-pages/IP3-master/assets/backgrounds/h_img.jpg);
+}
+.services{
+background-image: url(/home/ubuntu/Documents/delani-studio-ph-pages/IP3-master/assets/backgrounds/s_image.jpg);    
+text-align: center;
+}
+body{
+    font-size:x-large
+}
+.aboutus{
+    background-color: white;
+    text-align: center;
+}
+  .col-md-2{
+  max-width: 100%;
+  max-height: 100%;
+  float: left;
+}
+#ol1,#ol2,#ol3,#ol4,#ol5,#ol6,#ol7,#ol8{
+width: 20%;
+height: 20%;
+color: black;
+position: absolute;
+font-size: 35px;
+}
+.portfolio{
+    font-size: large;
+    display: inline;
+}
+#contactus{
+    background-image: url(/home/ubuntu/Documents/delani-studio-ph-pages/IP3-master/assets/backgrounds/c_image.jpg);
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+}
+#button{
+    color:red;
+}
+#design {
+    display: none;
+  }
+  .design-showing {
+  display: none;
+  }
+  .clickable {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  #development {
+    display: none;
+  }
+  .development-showing {
+  display: none;
+  }
+  .click {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  #product-management {
+    display: none;
+  }
+  .product-management-showing {
+  display: none;
+  }
+  .clic {
+    cursor: pointer;
+    color: #0088cc;
+  }
+  .container {
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    background-color: white;
+  }
+#portfolio{
+    text-align: center;
+    background-color: white;
+}
+#social{
+    text-align: center;
+}
+#mouseclick{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+    animation: bounce 2s infinite;
+  }
+  #images{
+    text-align: center;
+  }
