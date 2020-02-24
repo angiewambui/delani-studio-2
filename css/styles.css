@@ -39,12 +39,12 @@ font-size: 35px;
     color:red;
 }
 #design {
-    display: none;
+    display: ;
   }
   .design-showing {
   display: none;
   }
-  .clickable {
+  .click {
     cursor: pointer;
     color: #0088cc;
   }
@@ -54,7 +54,7 @@ font-size: 35px;
   .development-showing {
   display: none;
   }
-  .click {
+  .devtclick {
     cursor: pointer;
     color: #0088cc;
   }
@@ -64,7 +64,7 @@ font-size: 35px;
   .product-management-showing {
   display: none;
   }
-  .clic {
+  .manageclick{
     cursor: pointer;
     color: #0088cc;
   }

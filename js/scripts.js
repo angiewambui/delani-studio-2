@@ -1,19 +1,20 @@
 $(document).ready(function() {
-    $(".clickable").click(function() {
+    $(".click").click(function() {
       $(".design-showing").toggle();
       $(".design-hidden").toggle();
       $("#design").show();
     });
-    $(".click").click(function() {
+    $(".devtclick").click(function() {
       $(".development-showing").toggle();
       $(".development-hidden").toggle();
       $("#development").show();
     });
-    $(".clic").click(function() {
+    $(".manageclick").click(function() {
       $(".product-management-showing").toggle();
       $(".product-management-hidden").toggle();
       $("#product-management").show();
     });
+  })    
   $(document).ready(function(){
     $("detailsform").submit(function(event){
       // event.preventDefault();
@@ -27,5 +28,4 @@ $(document).ready(function() {
         alert("Please enter your name and email!");
       }
     });
-  });
-  
+  }); 
